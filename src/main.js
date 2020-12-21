@@ -12,7 +12,7 @@ function main (sources) {
       name: ev.target.name
     })
     )
-    .startWith('deez nuts')
+    .startWith('lol')
     .map(props => {
       console.log(props)
       let personsName = props.name === 'name' ? props.value : props
